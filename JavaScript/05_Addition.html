@@ -7,29 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <input type="text" name="inp-name" class="inp-class" id="inp-id"> -->
+    <input type="text" name="inp-name" class="inp-class" id="inp-id">
     <input type="text" name="val1" class="inp-class" id="val1">
     <input type="text" name="val2" class="inp-class" id="val2">
     <button value="anything" onclick="btnclick(this)">Click</button>
     <div id="dispdata"></div>
     <script>
         function btnclick(kaipan) {
-            // let a = 50;
-            // let b = 150;
+            let a = 150;
+            let b = 150;
             // let a = document.getElementById("val1");
-            let a = document.getElementById("val1").value;
-            let b = document.getElementById("val2").value;
+            // let a = document.getElementById("val1").value;
+            // let b = document.getElementById("val2").value;
             // console.log("input val1 data: ",a);
             // console.log("input val2 data: ",b);
             // console.log(a+b);
             let sum = parseInt(a)+parseFloat(b);
+            // console.log(typeof (a+b));
             // document.write(a+b);
             // document.write(sum);
+            console.log(sum);
             // document.getElementById("dispdata").innerHTML = "Test innerHTML "
             // document.getElementById("dispdata").innerText = "Test innerText"
             // document.getElementById("dispdata").innerHTML = "<b>Test innerHTML </b>"
             // document.getElementById("dispdata").innerText = "<b>Test innerText</b>"
-            document.getElementById("dispdata").innerText = sum
+            // document.getElementById("dispdata").innerText = sum
             // console.log(kaipan);
             // console.log(kaipan.value);
             // let inpData = document.getElementById("inp-id")
@@ -49,7 +51,7 @@
             // console.log(inpData[0].value);
 
 
-            // let inpData = document.querySelector(".inp-class")
+            // let inpData = document.querySelector("#inp-id")
             // console.log(inpData);
             // console.log(inpData.value);
 
