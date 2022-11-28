@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+    <script>
+        console.log("this is a Function");
+
+        // function greet(name, rel="dear") {
+        //     console.log(`Wishing ${name} a day full of new opportunities and positive energies. Good morning, my ${rel} .`);
+        //     return 4;
+        // }
+        // let name = "unnati";
+
+        // let val = greet(name, "dear");
+        // console.log(val);
+
+        // function greet(name, rel="dear") {
+        //     let msg= `Wishing ${name} a day full of new opportunities and positive energies. Good morning, my ${rel} .`;
+        //     return msg;
+        // }
+        // let name = "unnati";
+
+        // let val = greet(name, "dear");
+        // console.log(val);
+
+        const mygreet= function(name, rel="dear") {
+            let msg= `Wishing ${name} a day full of new opportunities and positive energies. Good morning, my ${rel} .`;
+            return msg;
+        }
+        let name = "unnati";
+
+        let val = mygreet(name, "dear");
+        console.log(val);
+
+        let myobj={
+            name: "sahil",
+            friend: function (){
+                return "forever";
+            }
+        }
+        console.log(myobj.friend());
+
+        list=["fruit", "vegetable", "fast food"];
+        list.forEach(function(element,index,array) {
+            console.log(index,element);
+        });
+    </script>
+</body>
+
+</html>
