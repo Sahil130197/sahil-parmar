@@ -10,17 +10,17 @@
 
 <body>
     <button id="changeclr">Turn On Bulb</button>
-    <img src="./light-bulb-off-.png" width="100px" id="slider-img" alt="">
+    <img src="./images/light-bulb-off-.png" width="100px" id="slider-img" alt="no img">
     <button id="turnoffbulb">Turn Off Bulb</button>
     <script>
         let ImageData = document.getElementById('slider-img');
         document.getElementById("changeclr").addEventListener("click", function () {
-            ImageData.src = "light-bulb-off-.png"
+            ImageData.src = "./images/light-bulb-on.png"
             ImageData.style.width = "100px"
             ImageData.style.height = "100px"
         })
         document.getElementById("turnoffbulb").addEventListener("click", function () {
-            ImageData.src = "light-bulb-on.png"
+            ImageData.src = "./images/light-bulb-off-.png"
             ImageData.style.width = "100px"
             ImageData.style.height = "100px"
         })
