@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background-attachment {
+            border: 15px dotted;
+            height: 500px;
+            background: url(../images/img1.jpeg);
+            /* background-attachment: fixed; */
+            background-attachment: scroll;
+        }
+
+        .background-color {
+            border: 15px dotted;
+            height: 500px;
+            background-color: tomato;
+        }
+
+        .background-image {
+            border: 15px dotted;
+            height: 500px;
+            background-image: url(../images/img1.jpeg);
+        }
+
+        .background-clip {
+            border: 15px dotted;
+            height: 500px;
+            background: url(../images/img1.jpeg);
+            /* font-size: 70px;
+            text-align: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent; */
+            /* background-clip: border-box;  */
+            /* background-clip: padding-box; */
+            background-clip: content-box;
+            padding: 20px;
+        }
+
+        .background-origin {
+            border: 15px dotted;
+            height: 500px;
+            background: url(../images/img1.jpeg);
+            /* background-origin: border-box; */
+            background-repeat: no-repeat;
+            padding: 20px;
+            /* background-origin: padding-box; */
+             background-origin: content-box;
+        }
+
+        .background-position {
+            border: 15px dotted;
+            height: 500px;
+            background: url(../images/img1.jpeg);
+            background-attachment: fixed;
+            /* background-repeat: no-repeat; */
+            background-position: 20% 20%;
+        }
+
+        .background-repeat {
+            border: 15px dotted;
+            height: 500px;
+            background: url(../images/img1.jpeg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .background-size {
+            border: 15px dotted;
+            height: 500px;
+            background: url(../images/img1.jpeg);
+            /* background-attachment: fixed; */
+            background-size: contain;
+            /* background-position: 20% 20%; */
+        }
+
+        .background-shorthand {
+            border: 15px dotted;
+            height: 500px;
+            background: url(../images/img1.jpeg) no-repeat center center /cover ;
+            /* background-attachment: fixed;
+            background-size: cover;
+            background-position:20% 20% ; */
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li> background-attachment</li>
+        <li> background-clip</li>
+        <li> background-color</li>
+        <li> background-image</li>
+        <li> background-origin</li>
+        <li> background-position</li>
+        <li> background-repeat</li>
+        <li> background-size</li>
+    </ul>
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-color">background-color</div>
+    <div class="background-image">background-image</div>
+    <div class="background-clip">background-clip</div>
+    <div class="background-origin">background-origin</div>
+    <div class="background-position">background-position</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-size">background-size</div>
+    <div class="background-shorthand ">background-shorthand </div>
+</body>
+
+</html>
