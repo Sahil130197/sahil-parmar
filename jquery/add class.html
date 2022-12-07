@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn jQuery</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #box {
+             padding: 10px;
+             border: 1px solid black;
+        }
+
+        .first {
+             background: tan;
+       }
+        .second {
+             background: pink;
+       }
+    </style>
+
+
+</head>
+<body>
+    <h1>jQuery class methods</h1>
+
+     <div id="box">
+     <h2>Test Box</h2>
+     <p>Lorem ipsum<span>dolor sit amet</span>, consectetur adipisicing elit. Maxime provident reiciendis dolore, nobis repellat, repudiandae quod voluptate quaerat laboriosam harum culpa ad.</p>
+    </div>
+    <br>
+    <button id="addbutton">Add Class</button>
+    <button id="removebutton">Remove Class</button>
+    <button id="togglebutton">Toggle Class</button>
+
+    <!-- <script src="jquery-3.6.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $("#addbutton").click(function(){
+        $('#box').addClass("first");
+    
+    });
+    
+    $("#removebutton").click(function(){
+        $('#box').removeClass("first");
+    
+    });
+    
+    $("#togglebutton").click(function(){
+        $('#box').toggleClass("first");
+    
+    });
+</script>
+</body>
+</html>
