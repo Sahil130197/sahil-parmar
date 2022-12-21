@@ -28,24 +28,50 @@ a {
 img {
     width: 100%;
 }
-.card-image{
+
+.card {
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 21px;
+    line-height: 38px;
+    text-transform: uppercase;
+    /* color: #000000; */
+    font-weight: 700;
+
+}
+
+.card p {
+    width: 367px;
+    height: 51px;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.card-image {
     height: 300px;
 }
-.card-image img{
+
+.card-image img {
     height: inherit;
     object-fit: contain;
 }
-.bg-strip{
+
+.bg-strip {
     position: absolute;
     background-color: #ffe001;
     width: 100%;
     height: 200px;
     z-index: -1;
 }
+
 .bg {
     background-color: #ffe001;
     /* height: 100vh; */
-    height: 875px;
+    height: 850px;
     font-family: "FrederickatheGreat";
     position: absolute;
     width: 100%;
@@ -55,23 +81,26 @@ img {
 .clippath {
     background-color: #ebe9ac;
     /* height: 100vh; */
-    height: 875px;
+    height: 850px;
     clip-path: polygon(78% 0, 127% 0, 100% 100%, 65% 100%);
 }
 
 .container {
     width: 1260px;
     margin: 0 auto;
+    border: 1px solid;
 }
 
 .row {
     display: flex;
 }
-.col-33{
+
+.col-33 {
     width: 33.33%;
     padding-left: 12px;
     padding-right: 12px;
 }
+
 .align-center {
     align-items: center;
 }
@@ -79,14 +108,21 @@ img {
 .ml-a {
     margin-left: auto;
 }
-.my{
-   margin-top: .5em; 
-   margin-bottom: .5em; 
+
+.m-0-a{
+    margin: 0 auto;
 }
-.py{
-   margin-top: .5em; 
-   margin-bottom: .5em; 
+
+.my {
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
+
+.py {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
 .posi-rele {
     position: relative;
 }
@@ -125,6 +161,7 @@ img {
     top: 25%;
     background-color: #000000;
 }
+
 .navbar li {
     display: inline-block;
     /* padding: 30px; */
@@ -175,23 +212,29 @@ img {
 .header-img-sec {
     width: 700px;
 }
-.tomato{
+
+.tomato {
     bottom: 100px;
     right: -50px;
 }
-.pasta{
+
+.pasta {
     right: -130px;
 }
-.leaf-r{
+
+.leaf-r {
     bottom: 50px;
     right: -120%;
 }
-.spaghetti{
-    bottom: -250px;
-    left: -380px;
+
+.spaghetti {
+    /* bottom: -250px; */
+    left: -21%;
+    top: -60%;
     width: auto !important;
     height: auto !important;
 }
+
 .fredericka-font {
     font-family: "FrederickatheGreat" !important;
 }
@@ -221,25 +264,97 @@ img {
     font-weight: 400;
 }
 
-.btn{
+.btn {
+    font-size: 17px;
+    /* line-height: 38px; */
+    font-weight: 700;
     text-transform: uppercase;
     display: inline-block;
     padding: 10px 30px;
     border: 1px solid;
     color: #000000;
-    font-weight: bold;
+    /* font-weight: bold; */
     background-color: #ffe001;
 }
-.choose-bg{
+
+.choose-bg {
     position: relative;
-    
+
 }
-.choose-bg::before{
+
+.choose-bg::before {
     content: "";
     position: absolute;
-    background-color: #ffe001;
+    /* background-color: #ffe001; */
+    /* width: 1440px; */
+    /* height: 139px; */
+    background-color: #e8e6a9;
     width: 100%;
     height: 100px;
     z-index: -1;
-    top: 32%;
+    top: 42%;
+}
+
+.choose-enjoy {
+    margin-top: 40px;
+    /* border: 1px solid; */
+    text-align: center;
+    /* align-items: center; */
+}
+
+.choose-enjoy h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 38px;
+    text-transform: uppercase;
+    /* color: #000000; */
+    font-weight: 400;
+    font-family: "FrederickatheGreat";
+
+}
+
+.choose-enjoy p {
+    width: 1082px;
+    height: 56px;
+    font-size: 17px;
+    line-height: 29px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.main_content {
+    text-align: center;
+    margin-top: 60px;
+}
+.main_content h4 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main_content h2 {
+    font-size: 42px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "FrederickatheGreat";
+}
+
+.main_content p {
+    width: 1100px;
+    /* height: 60px; */
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.h{
+    height: 200px;
 }
