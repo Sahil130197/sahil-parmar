@@ -88,7 +88,7 @@ img {
 .container {
     width: 1260px;
     margin: 0 auto;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .row {
@@ -109,7 +109,7 @@ img {
     margin-left: auto;
 }
 
-.m-0-a{
+.m-0-a {
     margin: 0 auto;
 }
 
@@ -329,6 +329,7 @@ img {
     text-align: center;
     margin-top: 60px;
 }
+
 .main_content h4 {
     font-size: 21px;
     letter-spacing: 1px;
@@ -355,6 +356,127 @@ img {
     font-family: "Montserrat";
 }
 
-.h{
+.h {
     height: 200px;
+    /* width: 33.33%; */
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.res_content {
+    text-align: center;
+}
+
+.res_content h4 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.res_content h2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "FrederickatheGreat";
+}
+
+.table {
+    width: 60%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+    border-spacing: 20px;
+
+    /* border-collapse: collapse; */
+}
+
+tr {}
+
+td {
+    /* display: inline-block; */
+    width: 379px;
+    height: 65px;
+    border-radius: 5px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+
+}
+
+.yellow {
+    color: #000000;
+    font-weight: 900;
+    background-color: #ffe001;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.m_tb {
+    margin: 50px 0px;
+}
+
+.contact_us {
+    background-image: url(../images/BG\ Image.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    /* object-fit: contain; */
+}
+
+.logo {
+    color: aliceblue;
+    background-color: #ffe001;
+    margin: 70px 0px 70px 70px;
+}
+
+.footer_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa {
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+.row1 span {
+    line-height: 35px;
+}
+
+.col-2 {
+    width: 40%;
+}
+
+.col2 span {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dis_f {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pad_0 {
+    padding-right: 100px;
+}
+
+.color_w {
+    color: #ffffff;
 }
