@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+    <script>
+        for (let index = 0; index < 10; index++) {
+            console.log("called");
+        }
+
+        let whiledata = 0;
+        while (whiledata < 5) {
+            console.log("while called");
+            whiledata++
+        }
+
+        let dowhiledata = 0
+
+        do {
+            console.log("dowhile called");
+            dowhiledata++
+        } while (dowhiledata < 5);
+
+        a_result = [90, 92, 95, 97];
+        a_result.forEach(element => {
+            console.log(element);
+        })
+
+        a_result_object = { "maths": 90, "english": 92, "physics": 95, "chemistry": 97 }
+
+        for (const key in a_result_object) {
+            console.log(key);
+            console.log(a_result_object[key]);
+        }
+
+        for (const kaipan of Object.entries(a_result_object)) {
+            console.log(kaipan);
+        }
+
+
+    </script>
+</body>
+
+</html>
