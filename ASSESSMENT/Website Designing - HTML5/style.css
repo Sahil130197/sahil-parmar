@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    width: 70%;
+    /* height: 80vh; */
+    margin: 50px auto;
+    background-color: aliceblue;
+}
+.col h1{
+    /* margin: 0px ; */
+    width: 90%;
+    margin: 10px auto;
+}
+
+.adress{
+    width: 90%;
+    margin: 20px auto;
+    background-color:#fff;
+}
+.adress h3{
+    margin: 5px;
+}
+
+.detalis{
+    width: 100%;
+    display: flex;
+}
+.detalis p{
+    margin: 5px;
+}
+
+.ph-em {
+    margin: 0px 80px;
+}
+.ph-em p:nth-child(1){
+    color: red;
+    
+}
+.ph-em  p:nth-child(2){
+    color: rgb(0, 255, 234);
+}
+.box{
+    width: 90%;
+    margin: 10px auto;
+    background-color:#fff;
+    display: flex;
+}
+tr{
+    display: inline-block;
+    margin: 6px;
+}
+td{
+    display: inline-block;
+    margin: 0px 25px 0px 0px;
+}
+td input{
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+td textarea{
+    padding: 0px;
+}
+.btn{
+    display: block;
+}
+.btn button{
+    background-color: rgb(22, 87, 192);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+map iframe{
+    margin: 10px auto;
+}
+.icons i{
+    font-size: 23px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.fb{
+    color: rgb(28, 28, 146);
+}
+.tw{
+    color: rgb(19, 19, 232);
+}
+.lin{
+    color: rgb(10, 25, 142);
+
+}
+span{
+    display: block;
+    margin: 5px 0px -10px 0px;
+    color: rgb(216, 21, 21);
+    animation: spark infinite 3s ease-in-out   ;
+}
+@keyframes spark {
+    0%{
+       filter: brightness(1.5);
+       
+    }
+    20%{
+        filter: brightness(1.3);
+
+    }
+    50%{
+        filter: brightness(1.1);
+        
+    }
+    75%{
+        filter: brightness(0.8);
+
+    }
+    100%{
+        filter: brightness(0.5);
+        
+    }
+}
