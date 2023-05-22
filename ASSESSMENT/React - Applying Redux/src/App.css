@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: aquamarine;
+  align-content: center;
+  border: 1px solid red;
+  border-radius: 50px;
+  width: 500px;
+  height: 98vh;
+  margin:  auto;
+
+}
+
+.inp{
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  border-color: blueviolet;
+  
+}
+
+.inp::placeholder {
+  color: rgb(255, 0, 191);
+}
+
+.list-style{
+  list-style: none;
+  font-weight: bold;
+  color: chocolate;
+  margin: 20px;
+  /* border: 1px solid red; */
+  text-align: center;
+
+}
+
+.list-style li{
+  margin: 20px 50px 20px 20px;
+  
+}
