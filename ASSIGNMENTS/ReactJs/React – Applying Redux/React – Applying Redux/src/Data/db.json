@@ -1,0 +1,60 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Admin-User",
+      "role": "admin",
+      "email": "admin@admin.com",
+      "phone": "8562314978"
+    },
+    {
+      "id": 2,
+      "name": "Sahil",
+      "email": "sahil@parmar.com",
+      "phone": "8562314978",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "name": "user",
+      "role": "user",
+      "email": "user@user.com",
+      "phone": "8653914978"
+    },
+    {
+      "id": 6,
+      "name": "Admin-User",
+      "role": "admin",
+      "email": "admin@admin.com",
+      "phone": "8562314978"
+    },
+    {
+      "id": 7,
+      "name": "user",
+      "role": "user",
+      "email": "user@user.com",
+      "phone": "6898314978"
+    },
+    {
+      "id": 8,
+      "name": "Admin-",
+      "role": "admin",
+      "email": "admin@admin.com",
+      "phone": "8562314978"
+    },
+    {
+      "id": 9,
+      "name": "Mohan",
+      "role": "user",
+      "email": "mohan123@email.com",
+      "phone": "04521369871"
+    },
+    {
+      "name": "jigar vaghela",
+      "email": "jigar@vaghela.com",
+      "phone": "9999999999",
+      "role": "user",
+      "id": 10
+    }
+  ]
+}

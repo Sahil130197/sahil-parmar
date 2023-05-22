@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    background-color: rgb(35, 117, 114);
+    /* color: white; */
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 0px;
+}
+.link{
+    color: white;
+    font-size: 25px;
+    margin: 0px 20px;
+}
