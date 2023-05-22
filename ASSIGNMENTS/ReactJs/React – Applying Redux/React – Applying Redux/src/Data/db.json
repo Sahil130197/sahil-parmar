@@ -9,10 +9,17 @@
     },
     {
       "id": 2,
-      "name": "Sahil",
-      "email": "sahil@parmar.com",
-      "phone": "8562314978",
-      "role": "user"
+      "name": "Admin-User",
+      "email": "admin@admin.com",
+      "phone": "8562314979",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "name": "Admin-User",
+      "role": "admin",
+      "email": "admin@admin.com",
+      "phone": "8562314978"
     },
     {
       "id": 5,
@@ -48,13 +55,6 @@
       "role": "user",
       "email": "mohan123@email.com",
       "phone": "04521369871"
-    },
-    {
-      "name": "jigar vaghela",
-      "email": "jigar@vaghela.com",
-      "phone": "9999999999",
-      "role": "user",
-      "id": 10
     }
   ]
 }

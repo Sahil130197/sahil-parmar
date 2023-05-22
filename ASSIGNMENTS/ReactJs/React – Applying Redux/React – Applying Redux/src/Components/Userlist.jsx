@@ -18,7 +18,7 @@ const Userlist = (props) => {
     }
     return (
         props.user.loading?<div><h2>Loading.....</h2></div>:
-        props.user.errmessage?<div>{props.user.errmessage}</div>:
+        props.user.errmessage?<div><h2></h2>{props.user.errmessage}</div>:
         <>
             <div className="card">
 
