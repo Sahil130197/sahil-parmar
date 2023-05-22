@@ -17,7 +17,7 @@ const Updateuser = () => {
 
     useEffect(()=>{
         dispatch(FeatchUserObj(code))
-    },[])
+    })
 
     useEffect(()=>{
         if (userobj) {
