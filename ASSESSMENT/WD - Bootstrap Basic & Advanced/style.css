@@ -71,6 +71,19 @@
     background-color: #ffff99;
 }   
 
-/* .w-80{
-    width: 80%;
-} */
+.bg-coral{
+    background-color: coral;
+    
+    }
+
+.p{
+    padding: 0;
+}
+
+.mt{
+    margin-top: 5px !important;
+}
+
+.h{
+    height: 600px;
+}
