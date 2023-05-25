@@ -1,58 +1,59 @@
-.bg-color{
+.bg-color {
     background-color: coral;
 }
 
-.navbar a{
- color: white !important ;
+.navbar a {
+    color: white !important;
 }
 
-.white{
-    color: white !important ;
-    
+.white {
+    color: white !important;
+
 }
 
-.imgw{
+.imgw {
     width: 200px;
 }
 
-.w-33{
+.w-33 {
     width: 30%;
     border: none;
     margin-left: 10px;
 
 }
 
-.w-33 i{
+.w-33 i {
     display: inline-block;
     color: coral;
     font-size: 60px;
 }
 
-.portfolio{
+.portfolio {
     background-color: beige;
 }
 
 
 
-.op{
+.op {
     color: coral !important;
     opacity: 1 !important;
 }
 
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-   }
-   
-   .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-   }
+}
 
-   #slider {
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#slider {
     height: 250px;
     overflow: hidden;
     width: 100%;
 }
-   .carousel-indicators li {
+
+.carousel-indicators li {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -62,28 +63,29 @@
     border: none;
     border-radius: 50%;
     background-color: coral;
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
 .carousel-indicators .active {
     width: 15px;
     height: 15px;
     margin: 10px;
     background-color: #ffff99;
-}   
+}
 
-.bg-coral{
+.bg-coral {
     background-color: coral;
-    
-    }
 
-.p{
+}
+
+.p {
     padding: 0;
 }
 
-.mt{
+.mt {
     margin-top: 5px !important;
 }
 
-.h{
+.h {
     height: 600px;
 }
